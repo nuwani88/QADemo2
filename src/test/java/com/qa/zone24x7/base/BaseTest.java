@@ -15,6 +15,7 @@ public class BaseTest {
        driver = new ChromeDriver();
        driver.manage().window().maximize();
        driver.get("https://ezp-dev-admin.ezpassport.online/login");
+       System.out.println("commit");
    }
 
 //    @AfterMethod
